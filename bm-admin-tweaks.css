@@ -1,0 +1,287 @@
+body {
+	text-align:center;
+	background:#464646;
+	font-size:12px;
+}
+
+body#media-upload {
+	background:#fff;
+}
+
+* {
+	-moz-border-radius:0 !important;
+}
+
+#adminmenu {
+	padding:1em 0 0 0.5em;
+}
+#adminmenu a {
+	font-size: 1em;
+	line-height: 25px;
+}
+#adminmenu a.current {
+	border-bottom-width:1px;
+}
+
+#wpwrap, #footer {
+	width:1010px;
+	min-width:1010px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#footer {
+	width:990px;
+}
+
+#wpcontent {
+	background:#fff;
+	padding-bottom:50px;
+	overflow:hidden;
+	*height:1%;
+}
+
+#submenu {
+	border-bottom:1px solid #eee;
+	margin:0 0 15px 0;
+	padding:6px 0 3px 5px;
+}
+
+#submenu a {
+	font-size:11px;
+	padding:5px 8px;
+	text-decoration:underline;
+}
+
+#submenu a:hover {
+	text-decoration:none;
+}
+
+#submenu li {
+	padding:0pt 0pt 8px 0;
+}
+
+#submenu a.current {
+	background:#D54E21;
+	color:#fff;
+}
+
+.wrap h2 {
+	border:none;
+}
+
+.submit input, .button, .button-secondary, .button-highlighted {
+	font-size:14px;
+}
+
+.submit input.delete, .button.delete, .button-secondary.delete, .button-highlighted.delete,
+.submit input.delete:hover, .button.delete:hover, .button-secondary.delete:hover, .button-highlighted.delete:hover {
+	border-color:#D66 #A00 #A00 #D66;
+	background:#C33 !important;
+	color:#fff;
+}
+
+.submit input, .button, .button-secondary, .button-highlighted,
+.submit input:hover, .button:hover, .button-secondary:hover, .button-highlighted:hover {
+	background:#D6E9FA !important;
+	border-color:#BDF #6AD #6AD #BDF;
+}
+
+.delete:hover, .button-secondary:hover {
+	color:#000;
+}
+
+#plugins tr.active td.status {
+	background:#B5DFA1;
+}
+#plugins span.active {
+	font-weight:bold;
+	background:transparent;
+}
+
+.widefat td, .widefat th, .widefat {
+	border-color:#eee;
+}
+
+#poststuff .togbox {
+	background-color:#eee;
+}
+#poststuff .postbox, #poststuff .stuffbox {
+	border-color:#eee;
+}
+
+#titlediv, #poststuff .postarea {
+	margin-left:0;	
+}
+
+#poststuff .postbox, #poststuff .stuffbox {
+	margin-left:10px;
+}
+
+.form-table input:focus, .form-table textarea:focus {
+	border-color:#2583AD;
+	background-color:#ffc;
+}
+
+.form-table td, .form-table th {
+	border-width:1px;
+}
+
+.wrap, .updated, .error, #message {
+	max-width:9999px;
+}
+
+#wphead h1 #viewsite a {
+	padding: 0 2em;
+	font: small-caps smaller "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+	background: transparent;
+	color: #CEE1EF;
+	display: inline;
+	letter-spacing: normal;
+	border-style: none;
+}
+#wphead h1 #viewsite a:after {
+	content: " \BB ";
+}
+
+.submit {
+	border:none;
+}
+
+div.dashboard-widget, #poststuff .postbox, #poststuff .stuffbox {
+	border:1px solid #EAF3FA;
+	padding:0 !important;
+}
+
+#poststuff .togbox {
+	background-position:-9px 14px;
+	height:32px;
+	margin-left:-21px;
+	margin-top:-8px;
+	width:13px;
+	background-color:#EAF3FA;
+}
+
+#poststuff .closed .togbox {
+	background-color:#2583AD;
+	background-position:4px 14px;
+	height:33px;
+}
+
+#submitpost, #submitpage, #submitlink {
+	width:190px;
+}
+
+#poststuff #post-body {
+	margin-right:200px;
+}
+
+textarea, input, select, #quicktags #ed_code {
+	font-size:11px;
+}
+
+#ed_toolbar input {
+	margin:3px 1px;
+	padding:2px;
+	border-width:1px;
+}
+
+#wpwrap #wphead h1 {
+	font: italic 1.6em/1 Georgia, "Times New Roman", Times, serif;
+	padding: 0.5em 170px 16px 30px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 15% 0 0.5em;
+	color: #ABACAB;
+}
+#wphead {
+	border-top-width:40px;
+}
+#wphead h1 #viewsite {
+	position: static;
+	margin: 0;
+}
+
+#dashmenu {
+	padding-left:0;
+}
+#dashmenu li a {
+	width:20px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999em;
+	background:url(images/dashboard_normal.gif) top center no-repeat;
+}
+
+#dashmenu li a.current {
+	background:url(images/dashboard_active.gif) top center no-repeat;
+}
+
+#rightnow {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+#poststuff h3 {
+	font-size: 1em;
+	margin:0;
+	padding:8px;
+}
+#poststuff #titlediv {
+	position: relative;
+	margin-bottom: 0;
+}
+
+#poststuff #editor-toolbar {
+	margin-top:-30px;
+}
+
+#poststuff #edit-slug-box {
+	text-align: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0.5em;
+}
+
+#poststuff .inside {
+	margin:12px;
+}
+
+.submitbox .submit {
+	font-size: smaller;
+	padding: 0.75em;
+}
+
+.submitbox #previewview {
+	padding: 0.75em;
+}
+.submitbox #previewview a {
+	border-bottom: medium none;
+	font-size: 0.95em;
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+}
+.submitbox #autosave {
+	display: block;
+	padding-top: 0.25em;
+}
+
+#poststuff .postbox, #poststuff .stuffbox {
+	padding: 0;
+}
+
+#the-comment-list .unapproved {
+	background-color: #FFDFD0;
+}
